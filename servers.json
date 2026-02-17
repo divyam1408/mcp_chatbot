@@ -1,0 +1,23 @@
+{
+  "servers": [
+    {
+      "name": "research",
+      "description": "ArXiv research paper search and extraction",
+      "command": "uv",
+      "args": [
+        "run",
+        "research_server.py"
+      ],
+      "env": null
+    },
+    {
+      "name": "fetch",
+      "description": "Fetch contents of given web url.",
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ],
+      "env": null
+    }
+  ]
+}

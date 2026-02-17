@@ -1,0 +1,31 @@
+{
+  "2301.13785v3": {
+    "title": "Commitment Against Front Running Attacks",
+    "authors": [
+      "Andrea Canidio",
+      "Vincent Danos"
+    ],
+    "summary": "We provide a game-theoretic analysis of the problem of front-running attacks. We use it to distinguish attacks from legitimate competition among honest users for having their transactions included earlier in the block. We also use it to introduce an intuitive notion of the severity of front-running attacks. We then study a simple commit-reveal protocol and discuss its properties. This protocol has costs because it requires two messages and imposes a delay. However, we show that it prevents the most severe front-running attacks while preserving legitimate competition between users, guaranteeing that the earliest transaction in a block belongs to the honest user who values it the most. When the protocol does not fully eliminate attacks, it nonetheless benefits honest users because it reduces competition among attackers (and overall expenditure by attackers).",
+    "pdf_url": "https://arxiv.org/pdf/2301.13785v3",
+    "published": "2023-01-31"
+  },
+  "0908.1159v2": {
+    "title": "On the Running Time of the Shortest Programs",
+    "authors": [
+      "Norbert B\u00e1tfai"
+    ],
+    "summary": "The Kolmogorov complexity of the word w is equal to the length of the shortest concatenation of program Z and its input x with which the word w is computed by the universal turing machine U. The question introduced in this paper is the following: How long do the shortest programs run for?",
+    "pdf_url": "https://arxiv.org/pdf/0908.1159v2",
+    "published": "2009-08-10"
+  },
+  "astro-ph/0603403v3": {
+    "title": "Inflationary Potential Reconstruction for a WMAP Running Power Spectrum",
+    "authors": [
+      "James M. Cline",
+      "Loison Hoi"
+    ],
+    "summary": "The first year WMAP measurement of the CMB temperature anisotropy is intriguingly consistent with a larger running of the inflationary scalar spectral index than would be expected for single-field inflation. We revisit the issue of a large running spectral index, first by reexamining the evidence from the data, and then by reconstructing the inflationary potential, using an improved method based upon the Hamilton-Jacobi formulation. We note that a spectrum which runs only over 1.5 decades of k space provides as good a fit to the CMB data as one which runs at all k, that significant evidence for running comes from multipoles l near 40, and that large running gives a better fit than a flat spectrum primarily if the tensor-to-scalar ratio $r$ is large, r ~ 0.5, and the field values are at the Planck scale. This allows one to break the large degeneracy of potentials which would be consistent with the scalar power alone. Large running, should it be confirmed, is thus linked to a high scale of inflation and the possibility of seeing effects of tensor modes in the CMB and Planck-scale physics. Nevertheless, we show that the reconstructed inflaton potential is well-described by a renormalizable potential whose quantum corrections are under control despite the large field values.",
+    "pdf_url": "https://arxiv.org/pdf/astro-ph/0603403v3",
+    "published": "2006-03-15"
+  }
+}

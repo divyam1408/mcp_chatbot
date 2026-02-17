@@ -1,0 +1,25 @@
+{
+  "2008.00881v5": {
+    "title": "Demystifying the Role of zk-SNARKs in Zcash",
+    "authors": [
+      "Aritra Banerjee",
+      "Michael Clear",
+      "Hitesh Tewari"
+    ],
+    "summary": "Zero-knowledge proofs have always provided a clear solution when it comes to conveying information from a prover to a verifier or vice versa without revealing essential information about the process. Advancements in zero-knowledge have helped develop proofs which are succinct and provide non-interactive arguments of knowledge along with maintaining the zero-knowledge criteria. zk-SNARKs (Zero knowledge Succinct Non-Interactive Argument of Knowledge) are one such method that outshines itself when it comes to advancement of zero-knowledge proofs. The underlying principle of the Zcash algorithm is such that it delivers a full-fledged ledger-based digital currency with strong privacy guarantees and the root of ensuring privacy lies fully on the construction of a proper zk-SNARK. In this paper we elaborate and construct a concrete zk-SNARK proof from scratch and explain its role in the Zcash algorithm.",
+    "pdf_url": "https://arxiv.org/pdf/2008.00881v5",
+    "published": "2020-08-03"
+  },
+  "2507.08150v2": {
+    "title": "CLEAR: Calibrated Learning for Epistemic and Aleatoric Risk",
+    "authors": [
+      "Ilia Azizi",
+      "Juraj Bodik",
+      "Jakob Heiss",
+      "Bin Yu"
+    ],
+    "summary": "Existing methods typically address either aleatoric uncertainty due to measurement noise or epistemic uncertainty resulting from limited data, but not both in a balanced manner. We propose CLEAR, a calibration method with two distinct parameters, $\u03b3_1$ and $\u03b3_2$, to combine the two uncertainty components and improve the conditional coverage of predictive intervals for regression tasks. CLEAR is compatible with any pair of aleatoric and epistemic estimators; we show how it can be used with (i) quantile regression for aleatoric uncertainty and (ii) ensembles drawn from the Predictability-Computability-Stability (PCS) framework for epistemic uncertainty. Across 17 diverse real-world datasets, CLEAR achieves an average improvement of 28.2% and 17.4% in the interval width compared to the two individually calibrated baselines while maintaining nominal coverage. Similar improvements are observed when applying CLEAR to Deep Ensembles (epistemic) and Simultaneous Quantile Regression (aleatoric). The benefits are especially evident in scenarios dominated by high aleatoric or epistemic uncertainty.",
+    "pdf_url": "https://arxiv.org/pdf/2507.08150v2",
+    "published": "2025-07-10"
+  }
+}

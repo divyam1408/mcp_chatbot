@@ -1,0 +1,20 @@
+{
+  "1707.05054v1": {
+    "title": "Recent CMS results in top and Higgs physics",
+    "authors": [
+      "Rebeca Gonzalez Suarez"
+    ],
+    "summary": "After the Higgs boson discovery in 2012, the investigation of its properties and compatibility with the standard model predictions is central to the physics program of the LHC experiments. Likewise, the study of the top quark is still relevant at the LHC, more than two decades after its discovery at the Tevatron. Top quarks and Higgs bosons are produced at the LHC on a large scale and share a deep connection based on the large mass of the top quark. Both particles provide an excellent laboratory in which to search for new physics: the measurement of their properties tests the foundations of the standard model; and they feature prominently in a variety of exotic signals. The coupling of the Higgs boson to the top quark, a fundamental standard model parameter, can only be measured directly in processes where the two particles are produced together. The production of a Higgs boson together with one or two top quarks is also sensitive to several exciting new physics effects. A brief overview of the current experimental status of top quark and Higgs boson physics is presented using results from the CMS Collaboration.",
+    "pdf_url": "https://arxiv.org/pdf/1707.05054v1",
+    "published": "2017-07-17"
+  },
+  "1411.7686v1": {
+    "title": "Search for New Physics in Rare Top Decays",
+    "authors": [
+      "Pratishruti Saha"
+    ],
+    "summary": "Top physics provides a fertile ground for new-physics searches. At present, most top observables appear to be in good agreement with the respective Standard Model predictions. However, in the case of decay modes that are suppressed in the Standard Model, new-physics contributions of comparable magnitude may exist and yet go unnoticed because their impact on the total decay width is small. Hence it is interesting to probe rare top decays. This analysis focuses on the decay $t \\to b \\bar b c$. Useful observables are identified and prospects for measuring new-physics parameters are examined.",
+    "pdf_url": "https://arxiv.org/pdf/1411.7686v1",
+    "published": "2014-11-27"
+  }
+}

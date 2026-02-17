@@ -1,0 +1,22 @@
+{
+  "1910.11775v2": {
+    "title": "Physics Briefing Book",
+    "authors": [
+      "European Strategy for Particle Physics Preparatory Group"
+    ],
+    "summary": "The European Particle Physics Strategy Update (EPPSU) process takes a bottom-up approach, whereby the community is first invited to submit proposals (also called inputs) for projects that it would like to see realised in the near-term, mid-term and longer-term future. National inputs as well as inputs from National Laboratories are also an important element of the process. All these inputs are then reviewed by the Physics Preparatory Group (PPG), whose role is to organize a Symposium around the submitted ideas and to prepare a community discussion on the importance and merits of the various proposals. The results of these discussions are then concisely summarised in this Briefing Book, prepared by the Conveners, assisted by Scientific Secretaries, and with further contributions provided by the Contributors listed on the title page. This constitutes the basis for the considerations of the European Strategy Group (ESG), consisting of scientific delegates from CERN Member States, Associate Member States, directors of major European laboratories, representatives of various European organizations as well as invitees from outside the European Community. The ESG has the mission to formulate the European Strategy Update for the consideration and approval of the CERN Council.",
+    "pdf_url": "https://arxiv.org/pdf/1910.11775v2",
+    "published": "2019-10-25"
+  },
+  "hep-ex/9605011v1": {
+    "title": "Physics and Technology of the Next Linear Collider: A Report Submitted to Snowmass '96",
+    "authors": [
+      "NLC ZDR Design Group",
+      "NLC Physics Working Group",
+      "S. Kuhlman"
+    ],
+    "summary": "We present the current expectations for the design and physics program of an e+e- linear collider of center of mass energy 500 GeV -- 1 TeV. We review the experiments that would be carried out at this facility and demonstrate its key role in exploring physics beyond the Standard Model over the full range of theoretical possibilities. We then show the feasibility of constructing this machine, by reviewing the current status of linear collider technology and by presenting a precis of our `zeroth-order' design.",
+    "pdf_url": "https://arxiv.org/pdf/hep-ex/9605011v1",
+    "published": "1996-05-30"
+  }
+}
