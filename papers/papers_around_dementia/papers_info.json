@@ -1,0 +1,62 @@
+{
+  "1904.07282v1": {
+    "title": "A deep learning model for early prediction of Alzheimer's disease dementia based on hippocampal MRI",
+    "authors": [
+      "Hongming Li",
+      "Mohamad Habes",
+      "David A. Wolk",
+      "Yong Fan"
+    ],
+    "summary": "Introduction: It is challenging at baseline to predict when and which individuals who meet criteria for mild cognitive impairment (MCI) will ultimately progress to Alzheimer's disease (AD) dementia. Methods: A deep learning method is developed and validated based on MRI scans of 2146 subjects (803 for training and 1343 for validation) to predict MCI subjects' progression to AD dementia in a time-to-event analysis setting. Results: The deep learning time-to-event model predicted individual subjects' progression to AD dementia with a concordance index (C-index) of 0.762 on 439 ADNI testing MCI subjects with follow-up duration from 6 to 78 months (quartiles: [24, 42, 54]) and a C-index of 0.781 on 40 AIBL testing MCI subjects with follow-up duration from 18-54 months (quartiles: [18, 36,54]). The predicted progression risk also clustered individual subjects into subgroups with significant differences in their progression time to AD dementia (p<0.0002). Improved performance for predicting progression to AD dementia (C-index=0.864) was obtained when the deep learning based progression risk was combined with baseline clinical measures. Conclusion: Our method provides a cost effective and accurate means for prognosis and potentially to facilitate enrollment in clinical trials with individuals likely to progress within a specific temporal period.",
+    "pdf_url": "https://arxiv.org/pdf/1904.07282v1",
+    "published": "2019-04-15"
+  },
+  "1908.06046v1": {
+    "title": "A Projection-based Augmented Reality for Elderly People with Dementia",
+    "authors": [
+      "Hyocheol Ro",
+      "Yoon Jung Park",
+      "Tack-Don Han"
+    ],
+    "summary": "As aging societies grow, researchers are actively studying care systems concerning the life and diseases of the elderly. Among these diseases, dementia makes it difficult to maintain daily life due to the degradation of cognitive functioning, memory, and reasoning, as well as the ability to perform actions. Moreover, dementia does not have a perfect cure, though therapy and care can slow its onset and provide patients with physical and mental support. In this paper, we developed a projection-based augmented reality system robot that can cover 360 degrees of space. We also propose an application that supports continuous monitoring of dementia patients to address the difficulties they face in daily life. The system is also designed to provide therapy applications, such as entertainment and spatial art, to provide mental care aids for the patients.",
+    "pdf_url": "https://arxiv.org/pdf/1908.06046v1",
+    "published": "2019-08-16"
+  },
+  "2006.07358v2": {
+    "title": "Comparing Natural Language Processing Techniques for Alzheimer's Dementia Prediction in Spontaneous Speech",
+    "authors": [
+      "Thomas Searle",
+      "Zina Ibrahim",
+      "Richard Dobson"
+    ],
+    "summary": "Alzheimer's Dementia (AD) is an incurable, debilitating, and progressive neurodegenerative condition that affects cognitive function. Early diagnosis is important as therapeutics can delay progression and give those diagnosed vital time. Developing models that analyse spontaneous speech could eventually provide an efficient diagnostic modality for earlier diagnosis of AD. The Alzheimer's Dementia Recognition through Spontaneous Speech task offers acoustically pre-processed and balanced datasets for the classification and prediction of AD and associated phenotypes through the modelling of spontaneous speech. We exclusively analyse the supplied textual transcripts of the spontaneous speech dataset, building and comparing performance across numerous models for the classification of AD vs controls and the prediction of Mental Mini State Exam scores. We rigorously train and evaluate Support Vector Machines (SVMs), Gradient Boosting Decision Trees (GBDT), and Conditional Random Fields (CRFs) alongside deep learning Transformer based models. We find our top performing models to be a simple Term Frequency-Inverse Document Frequency (TF-IDF) vectoriser as input into a SVM model and a pre-trained Transformer based model `DistilBERT' when used as an embedding layer into simple linear models. We demonstrate test set scores of 0.81-0.82 across classification metrics and a RMSE of 4.58.",
+    "pdf_url": "https://arxiv.org/pdf/2006.07358v2",
+    "published": "2020-06-12"
+  },
+  "1610.06762v2": {
+    "title": "Detecting functional decline from normal ageing to dementia: development and validation of a short version of the Amsterdam IADL Questionnaire",
+    "authors": [
+      "Roos J. Jutten",
+      "Carel F. W. Peeters",
+      "Sophie M. J. Leijdesdorff",
+      "Pieter Jelle Visser",
+      "Andrea B. Maier",
+      "Caroline B. Terwee",
+      "Philip Scheltens",
+      "Sietske A. M. Sikkes"
+    ],
+    "summary": "INTRODUCTION: Detecting functional decline from normal ageing to dementia is relevant for diagnostic and prognostic purposes. Therefore, the Amsterdam IADL Questionnaire (A-IADL-Q) was developed: a 70-item proxy-based tool with good psychometric properties. We aimed to design a short version whilst preserving its psychometric quality. METHODS: Study partners of subjects (n=1355), ranging from cognitively normal to dementia subjects, completed the original A-IADL-Q. We selected the short version items using a stepwise procedure combining missing data, Item Response Theory and input from respondents and experts. We investigated internal consistency of the short version as well as concordance with the original version. To assess its construct validity, we additionally investigated concordance between the short version and the Mini-Mental State Examination (MMSE) and Disability Assessment for Dementia (DAD). Lastly, we investigated differences in IADL scores between diagnostic groups across the dementia spectrum. RESULTS: We selected 30 items covering the entire spectrum of IADL functioning. Internal consistency (.98) and concordance with the original version (.97) were very high. Concordance with the MMSE (.72) and DAD (.87) scores was high. IADL impairment scores increased across the spectrum from normal cognition to dementia. DISCUSSION: The A-IADL-Q Short Version (A-IADL-Q-SV) consists of 30 items. The A-IADL-Q-SV has maintained the psychometric quality of the original A-IADL-Q. As such, it is a concise measure of functional decline.",
+    "pdf_url": "https://arxiv.org/pdf/1610.06762v2",
+    "published": "2016-10-21"
+  },
+  "2409.19737v2": {
+    "title": "A Systematic Review of NLP for Dementia -- Tasks, Datasets and Opportunities",
+    "authors": [
+      "Lotem Peled-Cohen",
+      "Roi Reichart"
+    ],
+    "summary": "The close link between cognitive decline and language has fostered long-standing collaboration between the NLP and medical communities in dementia research. To examine this, we reviewed over 240 papers applying NLP to dementia-related efforts, drawing from medical, technological, and NLP-focused literature. We identify key research areas, including dementia detection, linguistic biomarker extraction, caregiver support, and patient assistance, showing that half of all papers focus solely on dementia detection using clinical data. Yet, many directions remain unexplored -- artificially degraded language models, synthetic data, digital twins, and more. We highlight gaps and opportunities around trust, scientific rigor, applicability and cross-community collaboration. We raise ethical dilemmas in the field, and highlight the diverse datasets encountered throughout our review -- recorded, written, structured, spontaneous, synthetic, clinical, social media-based, and more. This review aims to inspire more creative, impactful, and rigorous research on NLP for dementia.",
+    "pdf_url": "https://arxiv.org/pdf/2409.19737v2",
+    "published": "2024-09-29"
+  }
+}

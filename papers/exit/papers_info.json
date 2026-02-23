@@ -1,0 +1,59 @@
+{
+  "1609.01475v1": {
+    "title": "Multi Exit Configuration of Mesoscopic Pedestrian Simulation",
+    "authors": [
+      "Allan Lao",
+      "Kardi Teknomo"
+    ],
+    "summary": "A mesoscopic approach to modeling pedestrian simulation with multiple exits is proposed in this paper. A floor field based on Qlearning Algorithm is used. Attractiveness of exits to pedestrian typically is based on shortest path. However, several factors may influence pedestrian choice of exits. Scenarios with multiple exits are presented and effect of Q-learning rewards system on navigation is investigated",
+    "pdf_url": "https://arxiv.org/pdf/1609.01475v1",
+    "published": "2016-09-06"
+  },
+  "2209.09480v1": {
+    "title": "Unsupervised Early Exit in DNNs with Multiple Exits",
+    "authors": [
+      "Hari Narayan N U",
+      "Manjesh K. Hanawal",
+      "Avinash Bhardwaj"
+    ],
+    "summary": "Deep Neural Networks (DNNs) are generally designed as sequentially cascaded differentiable blocks/layers with a prediction module connected only to its last layer. DNNs can be attached with prediction modules at multiple points along the backbone where inference can stop at an intermediary stage without passing through all the modules. The last exit point may offer a better prediction error but also involves more computational resources and latency. An exit point that is `optimal' in terms of both prediction error and cost is desirable. The optimal exit point may depend on the latent distribution of the tasks and may change from one task type to another. During neural inference, the ground truth of instances may not be available and error rates at each exit point cannot be estimated. Hence one is faced with the problem of selecting the optimal exit in an unsupervised setting. Prior works tackled this problem in an offline supervised setting assuming that enough labeled data is available to estimate the error rate at each exit point and tune the parameters for better accuracy. However, pre-trained DNNs are often deployed in new domains for which a large amount of ground truth may not be available. We model the problem of exit selection as an unsupervised online learning problem and use bandit theory to identify the optimal exit point. Specifically, we focus on Elastic BERT, a pre-trained multi-exit DNN to demonstrate that it `nearly' satisfies the Strong Dominance (SD) property making it possible to learn the optimal exit in an online setup without knowing the ground truth labels. We develop upper confidence bound (UCB) based algorithm named UEE-UCB that provably achieves sub-linear regret under the SD property. Thus our method provides a means to adaptively learn domain-specific optimal exit points in multi-exit DNNs. We empirically validate our algorithm on IMDb and Yelp datasets.",
+    "pdf_url": "https://arxiv.org/pdf/2209.09480v1",
+    "published": "2022-09-20"
+  },
+  "2206.04685v2": {
+    "title": "Predictive Exit: Prediction of Fine-Grained Early Exits for Computation- and Energy-Efficient Inference",
+    "authors": [
+      "Xiangjie Li",
+      "Chenfei Lou",
+      "Zhengping Zhu",
+      "Yuchi Chen",
+      "Yingtao Shen",
+      "Yehan Ma",
+      "An Zou"
+    ],
+    "summary": "By adding exiting layers to the deep learning networks, early exit can terminate the inference earlier with accurate results. The passive decision-making of whether to exit or continue the next layer has to go through every pre-placed exiting layer until it exits. In addition, it is also hard to adjust the configurations of the computing platforms alongside the inference proceeds. By incorporating a low-cost prediction engine, we propose a Predictive Exit framework for computation- and energy-efficient deep learning applications. Predictive Exit can forecast where the network will exit (i.e., establish the number of remaining layers to finish the inference), which effectively reduces the network computation cost by exiting on time without running every pre-placed exiting layer. Moreover, according to the number of remaining layers, proper computing configurations (i.e., frequency and voltage) are selected to execute the network to further save energy. Extensive experimental results demonstrate that Predictive Exit achieves up to 96.2% computation reduction and 72.9% energy-saving compared with classic deep learning networks; and 12.8% computation reduction and 37.6% energy-saving compared with the early exit under state-of-the-art exiting strategies, given the same inference accuracy and latency.",
+    "pdf_url": "https://arxiv.org/pdf/2206.04685v2",
+    "published": "2022-06-09"
+  },
+  "2108.09008v3": {
+    "title": "An exit contract optimization problem",
+    "authors": [
+      "Xihao He",
+      "Xiaolu Tan",
+      "Jun Zou"
+    ],
+    "summary": "We study an exit contract design problem, where one provides a universal exit contract to multiple heterogeneous agents, with which each agent chooses an optimal (exit) stopping time. The problem consists in optimizing the universal exit contract w.r.t. some criterion depending on the contract as well as the agents' exit times. Under a technical monotonicity condition, and by using Bank-El Karoui's representation of stochastic processes, we are able to transform the initial contract optimization problem into an optimal control problem. The latter is also equivalent to an optimal multiple stopping problem and the existence of the optimal contract is proved. We next show that the problem in the continuous-time setting can be approximated by a sequence of discrete-time ones, which would induce a natural numerical approximation method. We finally discuss the optimaization problem over the class of all Markovian and/or continuous exit contracts.",
+    "pdf_url": "https://arxiv.org/pdf/2108.09008v3",
+    "published": "2021-08-20"
+  },
+  "adap-org/9407003v1": {
+    "title": "Asymptotic Exit Location Distributions in the Stochastic Exit Problem",
+    "authors": [
+      "Robert S. Maier",
+      "Daniel L. Stein"
+    ],
+    "summary": "Consider a two-dimensional continuous-time dynamical system, with an attracting fixed point $S$. If the deterministic dynamics are perturbed by white noise (random perturbations) of strength $\u03b5$, the system state will eventually leave the domain of attraction $\u03a9$ of $S$. We analyse the case when, as $\u03b5\\to0$, the exit location on the boundary $\\partial\u03a9$ is increasingly concentrated near a saddle point $H$ of the deterministic dynamics. We show that the asymptotic form of the exit location distribution on $\\partial\u03a9$ is generically non-Gaussian and asymmetric, and classify the possible limiting distributions. A key role is played by a parameter $\u03bc$, equal to the ratio $|\u03bb_s(H)|/\u03bb_u(H)$ of the stable and unstable eigenvalues of the linearized deterministic flow at $H$. If $\u03bc<1$ then the exit location distribution is generically asymptotic as $\u03b5\\to0$ to a Weibull distribution with shape parameter $2/\u03bc$, on the $O(\u03b5^{\u03bc/2})$ length scale near $H$. If $\u03bc>1$ it is generically asymptotic to a distribution on the $O(\u03b5^{1/2})$ length scale, whose moments we compute. The asymmetry of the asymptotic exit location distribution is attributable to the generic presence of a `classically forbidden' region: a wedge-shaped subset of $\u03a9$ with $H$ as vertex, which is reached from $S$, in the $\u03b5\\to0$ limit, only via `bent' (non-smooth) fluctuational paths that first pass through the vicinity of $H$. We deduce from the presence of this forbidden region that the classical Eyring formula for the small-$\u03b5$ exponential asymptotics of the mean first exit time is generically inapplicable.",
+    "pdf_url": "https://arxiv.org/pdf/adap-org/9407003v1",
+    "published": "1994-07-28"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "2110.06573v2": {
+    "title": "A Parametric and Feasibility Study for Data Sampling of the Dynamic Mode Decomposition--Range, Resolution, and Universal Convergence States",
+    "authors": [
+      "Cruz Y. Li",
+      "Zengshun Chen",
+      "Tim K. T. Tse",
+      "Asiri Umenga Weerasuriya",
+      "Xuelin Zhang",
+      "Yunfei Fu",
+      "Xisheng Lin"
+    ],
+    "summary": "Scientific research and engineering practice often require the modeling and decomposition of nonlinear systems. The Dynamic Mode Decomposition (DMD) is a novel Koopman-based technique that effectively dissects high-dimensional nonlinear systems into periodically distinct constituents on reduced-order subspaces. As a novel mathematical hatchling, the DMD bears vast potentials yet an equal degree of unknown. This serial effort investigates the nuances of DMD sampling with an engineering-oriented emphasis. This Part I aimed at elucidating how sampling range and resolution affect the convergence of DMD modes. We employed the most classical nonlinear system in fluid mechanics as the test subject--the turbulent free-shear flow over a prism--for optimal pertinency. We numerically simulated the flow by the dynamic-stress Large-Eddies Simulation with Near-Wall Resolution. With the large-quantity, high-fidelity data, we parametrized and identified four global convergence states: Initialization, Transition, Stabilization, and Divergence with increasing sampling range. Results showed that the Stabilization is the optimal state for modal convergence, in which DMD output becomes independent of the sampling range. The Initialization state also yields sufficient accuracy for most system reconstruction tasks. Moreover, defying popular beliefs, over-sampling causes algorithmic instability: as the temporal dimension, n, approaches and transcends the spatial dimension, m (i.e., m < n), the output diverges and becomes meaningless. Additionally, the convergence of the sampling resolution depends on the mode-specific dynamics, such that the resolution of 15 frames per cycle for target activities is suggested for most engineering implementations. Finally, a bi-parametric study revealed that the convergence of the sampling range and resolution are mutually independent.",
+    "pdf_url": "https://arxiv.org/pdf/2110.06573v2",
+    "published": "2021-10-13"
+  },
+  "1909.09193v2": {
+    "title": "Running of the top quark mass from proton-proton collisions at $\\sqrt{s} =$ 13 TeV",
+    "authors": [
+      "CMS Collaboration"
+    ],
+    "summary": "The running of the top quark mass is experimentally investigated for the first time. The mass of the top quark in the modified minimal subtraction ($\\mathrm{\\overline{MS}}$) renormalization scheme is extracted from a comparison of the differential top quark-antiquark ($\\mathrm{t\\overline{t}}$) cross section as a function of the invariant mass of the $\\mathrm{t\\overline{t}}$ system to next-to-leading-order theoretical predictions. The differential cross section is determined at the parton level by means of a maximum-likelihood fit to distributions of final-state observables. The analysis is performed using $\\mathrm{t\\overline{t}}$ candidate events in the e$^\\pm\u03bc^\\mp$ channel in proton-proton collision data at a centre-of-mass energy of 13 TeV recorded by the CMS detector at the CERN LHC in 2016, corresponding to an integrated luminosity of 35.9 fb$^{-1}$. The extracted running is found to be compatible with the scale dependence predicted by the corresponding renormalization group equation. In this analysis, the running is probed up to a scale of the order of 1 TeV.",
+    "pdf_url": "https://arxiv.org/pdf/1909.09193v2",
+    "published": "2019-09-19"
+  },
+  "1303.4033v1": {
+    "title": "Two-dimensional magnetic interactions in LaFeAsO",
+    "authors": [
+      "M. Ramazanoglu",
+      "1",
+      "2 J. Lamsal",
+      "1",
+      "2 G. S. Tucker",
+      "1",
+      "2 J. -Q. Yan",
+      "3 S. Calder",
+      "3 T. Guidi",
+      "4 T. Perring",
+      "4 R. W. McCallum",
+      "1",
+      "2 T. A. Lograsso",
+      "1",
+      "2 A. Kreyssig",
+      "1",
+      "2 A. I. Goldman",
+      "1",
+      "2",
+      "R. J. McQueeney1",
+      "2 1",
+      "2",
+      "3",
+      "4"
+    ],
+    "summary": "Inelastic neutron scattering measurements demonstrate that the magnetic interactions in antiferromagnetic LaFeAsO are two-dimensional. Spin wave velocities within the Fe layer and the magnitude of the spin gap are similar to the \\textit{A}Fe$_2$As$_2$ based materials. However, the ratio of interlayer and intralayer exchange is found to be less than $\\sim 10^{-4}$ in LaFeAsO, very similar to the cuprates, and $\\sim$ 100 times smaller than that found in \\textit{A}Fe$_2$As$_2$ compounds. The results suggest that the effective dimensionality of the magnetic system is highly variable in the parent compounds of the iron arsenides and weak 3-D interactions may limit the maximum attainable superconducting $T_{c}$.",
+    "pdf_url": "https://arxiv.org/pdf/1303.4033v1",
+    "published": "2013-03-17"
+  },
+  "2405.02292v1": {
+    "title": "ALOHA 2: An Enhanced Low-Cost Hardware for Bimanual Teleoperation",
+    "authors": [
+      "ALOHA 2 Team",
+      "Jorge Aldaco",
+      "Travis Armstrong",
+      "Robert Baruch",
+      "Jeff Bingham",
+      "Sanky Chan",
+      "Kenneth Draper",
+      "Debidatta Dwibedi",
+      "Chelsea Finn",
+      "Pete Florence",
+      "Spencer Goodrich",
+      "Wayne Gramlich",
+      "Torr Hage",
+      "Alexander Herzog",
+      "Jonathan Hoech",
+      "Thinh Nguyen",
+      "Ian Storz",
+      "Baruch Tabanpour",
+      "Leila Takayama",
+      "Jonathan Tompson",
+      "Ayzaan Wahid",
+      "Ted Wahrburg",
+      "Sichun Xu",
+      "Sergey Yaroshenko",
+      "Kevin Zakka",
+      "Tony Z. Zhao"
+    ],
+    "summary": "Diverse demonstration datasets have powered significant advances in robot learning, but the dexterity and scale of such data can be limited by the hardware cost, the hardware robustness, and the ease of teleoperation. We introduce ALOHA 2, an enhanced version of ALOHA that has greater performance, ergonomics, and robustness compared to the original design. To accelerate research in large-scale bimanual manipulation, we open source all hardware designs of ALOHA 2 with a detailed tutorial, together with a MuJoCo model of ALOHA 2 with system identification. See the project website at aloha-2.github.io.",
+    "pdf_url": "https://arxiv.org/pdf/2405.02292v1",
+    "published": "2024-02-07"
+  },
+  "hep-ex/0307069v1": {
+    "title": "Observation of Atmospheric Neutrino Oscillations in Soudan 2",
+    "authors": [
+      "The Soudan 2 Collaboration"
+    ],
+    "summary": "The effects of oscillations of atmospheric muon neutrinos are observed in the 5.90 fiducial kiloton-year exposure of the Soudan 2 detector. An unbinned maximum likelihood analysis of the neutrino L/E distribution has been carried out using the Feldman-Cousins prescription. The probability of the no oscillation hypothesis is 5.8x10-4. The 90% confidence allowed region in the sin**(2theta), Delta m**2 plane is presented.",
+    "pdf_url": "https://arxiv.org/pdf/hep-ex/0307069v1",
+    "published": "2003-07-25"
+  }
+}

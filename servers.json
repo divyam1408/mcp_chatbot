@@ -8,6 +8,7 @@
         "run",
         "research_server.py"
       ],
+      "transport": "stdio",
       "env": null
     },
     {
@@ -17,6 +18,17 @@
       "args": [
         "mcp-server-fetch"
       ],
+      "transport": "stdio",
+      "env": null
+    },
+    {
+      "name": "github",
+      "description": "Git related operations",
+      "transport": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}"
+      },
       "env": null
     }
   ]

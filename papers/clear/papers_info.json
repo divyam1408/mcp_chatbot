@@ -21,5 +21,61 @@
     "summary": "Existing methods typically address either aleatoric uncertainty due to measurement noise or epistemic uncertainty resulting from limited data, but not both in a balanced manner. We propose CLEAR, a calibration method with two distinct parameters, $\u03b3_1$ and $\u03b3_2$, to combine the two uncertainty components and improve the conditional coverage of predictive intervals for regression tasks. CLEAR is compatible with any pair of aleatoric and epistemic estimators; we show how it can be used with (i) quantile regression for aleatoric uncertainty and (ii) ensembles drawn from the Predictability-Computability-Stability (PCS) framework for epistemic uncertainty. Across 17 diverse real-world datasets, CLEAR achieves an average improvement of 28.2% and 17.4% in the interval width compared to the two individually calibrated baselines while maintaining nominal coverage. Similar improvements are observed when applying CLEAR to Deep Ensembles (epistemic) and Simultaneous Quantile Regression (aleatoric). The benefits are especially evident in scenarios dominated by high aleatoric or epistemic uncertainty.",
     "pdf_url": "https://arxiv.org/pdf/2507.08150v2",
     "published": "2025-07-10"
+  },
+  "2201.06289v3": {
+    "title": "The CLEAR Benchmark: Continual LEArning on Real-World Imagery",
+    "authors": [
+      "Zhiqiu Lin",
+      "Jia Shi",
+      "Deepak Pathak",
+      "Deva Ramanan"
+    ],
+    "summary": "Continual learning (CL) is widely regarded as crucial challenge for lifelong AI. However, existing CL benchmarks, e.g. Permuted-MNIST and Split-CIFAR, make use of artificial temporal variation and do not align with or generalize to the real-world. In this paper, we introduce CLEAR, the first continual image classification benchmark dataset with a natural temporal evolution of visual concepts in the real world that spans a decade (2004-2014). We build CLEAR from existing large-scale image collections (YFCC100M) through a novel and scalable low-cost approach to visio-linguistic dataset curation. Our pipeline makes use of pretrained vision-language models (e.g. CLIP) to interactively build labeled datasets, which are further validated with crowd-sourcing to remove errors and even inappropriate images (hidden in original YFCC100M). The major strength of CLEAR over prior CL benchmarks is the smooth temporal evolution of visual concepts with real-world imagery, including both high-quality labeled data along with abundant unlabeled samples per time period for continual semi-supervised learning. We find that a simple unsupervised pre-training step can already boost state-of-the-art CL algorithms that only utilize fully-supervised data. Our analysis also reveals that mainstream CL evaluation protocols that train and test on iid data artificially inflate performance of CL system. To address this, we propose novel \"streaming\" protocols for CL that always test on the (near) future. Interestingly, streaming protocols (a) can simplify dataset curation since today's testset can be repurposed for tomorrow's trainset and (b) can produce more generalizable models with more accurate estimates of performance since all labeled data from each time-period is used for both training and testing (unlike classic iid train-test splits).",
+    "pdf_url": "https://arxiv.org/pdf/2201.06289v3",
+    "published": "2022-01-17"
+  },
+  "2303.09570v1": {
+    "title": "CLEAR: Survey Overview, Data Analysis and Products",
+    "authors": [
+      "Raymond C. Simons",
+      "Casey Papovich",
+      "Ivelina G. Momcheva",
+      "Gabriel Brammer",
+      "Vicente Estrada-Carpenter",
+      "Steven L. Finkelstein",
+      "Catherine M. Gosmeyer",
+      "Jasleen Matharu",
+      "Jonathan R. Trump",
+      "Bren E. Backhaus",
+      "Yingjie Cheng",
+      "Nikko J. Cleri",
+      "Henry C. Ferguson",
+      "Kristian Finlator",
+      "Mauro Giavalisco",
+      "Zhiyuan Ji",
+      "Intae Jung",
+      "Jennifer M. Lotz",
+      "Rosalia O'Brien",
+      "Rosalind E. Skelton",
+      "Vithal Tilvi",
+      "Benjamin Weiner"
+    ],
+    "summary": "We present an overview of the CANDELS Lyman-a Emission At Reionization (CLEAR) survey. CLEAR is a 130 orbit program of the Hubble Space Telescope using the Wide Field Camera 3 (WFC3) IR G102 grism. CLEAR targets 12 pointings divided between the GOODS-N and GOODS-S fields of the Cosmic Assembly Near-IR Deep Extragalactic Legacy Survey (CANDELS). Combined with existing spectroscopic data from other programs, the full CLEAR dataset includes spectroscopic imaging of these fields over 0.8-1.7 um. In this Paper, we describe the CLEAR survey, the survey strategy, the data acquisition, reduction, processing, and science products and catalogs released alongside this paper. The catalogs include emission line fluxes and redshifts derived from the combination of the photometry and grism spectroscopy for 6048 galaxies, primarily ranging from 0.2 < z < 3. We also provide an overview of CLEAR science goals and results. In conjunction with this Paper we provide links to electronic versions of the data products, including 1D + 2D extracted spectra and emission line maps.",
+    "pdf_url": "https://arxiv.org/pdf/2303.09570v1",
+    "published": "2023-03-16"
+  },
+  "2007.06497v3": {
+    "title": "Intermittency acceleration of water droplet population dynamics inside the interfacial layer between cloudy and clear air environments",
+    "authors": [
+      "Mina Golshan",
+      "Shahbozbek Abdunabiev",
+      "Mattia Tomatis",
+      "Federico Fraternale",
+      "Marco Vanni",
+      "Daniela Tordella"
+    ],
+    "summary": "We use direct numerical simulation to study the temporal evolution of a perturbation localized on the turbulent layer that typically separates a cloud from the surrounding clear air. Across this shearless layer, a turbulent kinetic energy gradient naturally forms. Here, a finite perturbation in the form of a local initial temperature fluctuation is applied to simulate a hydrodynamic instability inside the background turbulent air flow. A numerical initial value problem for two diametrically opposite types of drop population distributions is then solved. Specifically, we consider a mono-disperse population of droplets of 15 $\u03bc$m of radius and a poly-disperse distribution with radii in the range 0.6 - 30 $\u03bc$m. For both distributions, it is observed that the evaporation and condensation have a dramatically different weight inside the homogeneous cloudy region and the interfacial anisotropic mixing region. It is observed that the dynamics of drop collisions is highly effected by the turbulence structure of the host region. The two populations show a common aspect during their energy decay transient. That is the increased probability of collisions in the interfacial layer hat houses intense anisotropic velocity fluctuations. This layer, in fact, induces an enhanced differentiation on droplets kinetic energy and sizes. Both polydisperse and monodisperse initial particle distributions contain $10^7$ droplets, matching an initial liquid water content of $0.8 g/m^3$. An estimate of the turbulent collision kernel for geometric collisions used in the population balance equations is given. A preliminary discussion is presented on the structure of the two unsteady non ergodic collision kernels obtained inside the cloud interface region.",
+    "pdf_url": "https://arxiv.org/pdf/2007.06497v3",
+    "published": "2020-07-13"
   }
 }

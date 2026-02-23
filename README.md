@@ -17,6 +17,14 @@ A powerful AI assistant built with the [Model Context Protocol (MCP)](https://mo
     -   `/prompts`: List available prompts.
     -   `/prompt <name> <args>`: Execute a specific prompt.
 
+## 🏗️ Architecture
+
+The project follows a **Client-Host-Server** architecture as defined by the MCP specification:
+
+1.  **Host (Chatbot)**: The `mcp_chatbot.py` script acts as the MCP Host. It initializes the client and manages connections.
+2.  **Server (Research)**: The `research_server.py` script runs as a standalone **subprocess**.
+3.  **Communication (Stdio)**: The Host triggers the Server using the command defined in `servers.json`. They communicate over **Standard Input/Output (stdio)** using JSON-RPC messages. This allows for secure, local, and fast interaction without needing network ports.
+
 ## 📂 Project Components
 
 ### 1. `mcp_chatbot.py` (The Client)

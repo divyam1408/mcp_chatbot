@@ -1,0 +1,66 @@
+{
+  "1602.07396v1": {
+    "title": "Concentration of research funding leads to decreasing marginal returns",
+    "authors": [
+      "Philippe Mongeon",
+      "Christine Brodeur",
+      "Catherine Beaudry",
+      "Vincent Lariviere"
+    ],
+    "summary": "In most countries, basic research is supported by research councils that select, after peer review, the individuals or teams that are to receive funding. Unfortunately, the number of grants these research councils can allocate is not infinite and, in most cases, a minority of the researchers receive the majority of the funds. However, evidence as to whether this is an optimal way of distributing available funds is mixed. The purpose of this study is to measure the relation between the amount of funding provided to 12,720 researchers in Quebec over a fifteen year period (1998-2012) and their scientific output and impact from 2000 to 2013. Our results show that both in terms of the quantity of papers produced and of their scientific impact, the concentration of research funding in the hands of a so-called \"elite\" of researchers generally produces diminishing marginal returns. Also, we find that the most funded researchers do not stand out in terms of output and scientific impact.",
+    "pdf_url": "https://arxiv.org/pdf/1602.07396v1",
+    "published": "2016-02-24"
+  },
+  "2302.10983v1": {
+    "title": "Do Orcas Have Semantic Language? Machine Learning to Predict Orca Behaviors Using Partially Labeled Vocalization Data",
+    "authors": [
+      "Sophia Sandholm"
+    ],
+    "summary": "Orcinus orca (killer whales) exhibit complex calls. They last about a second. In a call, an orca typically uses multiple frequencies simultaneously, varies the frequencies, and varies their volumes. Behavior data is hard to obtain because orcas live under water and travel quickly. Sound data is relatively easy to capture. As a science goal, we would like to know whether orca vocalizations constitute a semantic language. We do this by studying whether machine learning can predict behavior from vocalizations. Such prediction would also help scientific research and safety applications because one would like to predict behavior while only having to capture sound. A significant challenge in this process is lack of labeled data. We work with recent recordings of McMurdo Sound orcas [Wellard et al. 2020] where each recording is labeled with the behaviors observed during the recording. This yields a dataset where sound segments - continuous vocalizations that can be thought of as call sequences or more general structures - within the recordings are labeled with superfluous behaviors. Despite that, with a careful combination of recent machine learning techniques, we achieve 96.4% classification accuracy. This suggests that orcas do use a semantic language. It is also promising for research and applications.",
+    "pdf_url": "https://arxiv.org/pdf/2302.10983v1",
+    "published": "2023-01-28"
+  },
+  "2012.12205v1": {
+    "title": "NDRIO White Paper: Envisioning Digital Research Infrastructure for the Simons Observatory",
+    "authors": [
+      "Adam D. Hincks",
+      "Simone Aiola",
+      "J. Richard Bond",
+      "Erminia Calabrese",
+      "Andrei Frolov",
+      "Jos\u00e9 Tom\u00e1s G\u00e1lvez Ghersi",
+      "Ren\u00e9e Hlo\u017eek",
+      "Matthew Johnson",
+      "Mathew S. Madhavacheril",
+      "Moritz M\u00fcnchmeyer",
+      "Lyman A. Page",
+      "Jonathan Sievers",
+      "Suzanne T. Staggs",
+      "Alexander Van Engelen"
+    ],
+    "summary": "Observations of the cosmic microwave background (CMB) are an incredibly fertile source of information for studying the origins and evolution of the Universe. Canadian digital research infrastructure (DRI) has played a key role in reducing ever-larger quantities of raw data into maps of the CMB suitable for scientific analysis, as exemplified by the many scientific results produced by the Atacama Cosmology Telescope (ACT) over the past decade. The Simons Observatory (SO), due to start observing in 2023, will be able to measure the CMB with about an order of magnitude more sensitivity than ACT and other current telescopes. In this White Paper we outline how Canadian DRI under the New Digital Research Infrastructure Organization (NDRIO) could build upon the legacy of ACT and play a pivotal role in processing SO data, helping to produce data products that will be central to the cosmology community for years to come. We include estimates of DRI resources required for this work to indicate what kind of advanced research computing (ARC) would best support an SO-like project. Finally, we comment on how ARC allocations could be structured for large collaborations like SO and propose a research data management (RDM) system that makes public data releases available not only for download but also for direct analysis on Canadian DRI.",
+    "pdf_url": "https://arxiv.org/pdf/2012.12205v1",
+    "published": "2020-12-22"
+  },
+  "2311.03834v1": {
+    "title": "Universal productivity patterns in research careers",
+    "authors": [
+      "Andre S. Sunahara",
+      "Matjaz Perc",
+      "Haroldo V. Ribeiro"
+    ],
+    "summary": "A common expectation is that career productivity peaks rather early and then gradually declines with seniority. But whether this holds true is still an open question. Here we investigate the productivity trajectories of almost 8,500 scientists from over fifty disciplines using methods from time series analysis, dimensionality reduction, and network science, showing that there exist six universal productivity patterns in research. Based on clusters of productivity trajectories and network representations where researchers with similar productivity patterns are connected, we identify constant, u-shaped, decreasing, periodic-like, increasing, and canonical productivity patterns, with the latter two describing almost three-fourths of researchers. In fact, we find that canonical curves are the most prevalent, but contrary to expectations, productivity peaks occur much more frequently around mid-career rather than early. These results outline the boundaries of possible career paths in science and caution against the adoption of stereotypes in tenure and funding decisions.",
+    "pdf_url": "https://arxiv.org/pdf/2311.03834v1",
+    "published": "2023-11-07"
+  },
+  "1006.3863v2": {
+    "title": "Normalization of peer-evaluation measures of group research quality across academic disciplines",
+    "authors": [
+      "Ralph Kenna",
+      "Bertrand Berche"
+    ],
+    "summary": "Peer-evaluation based measures of group research quality such as the UK's Research Assessment Exercise (RAE), which do not employ bibliometric analyses, cannot directly avail of such methods to normalize research impact across disciplines. This is seen as a conspicuous flaw of such exercises and calls have been made to find a remedy. Here a simple, systematic solution is proposed based upon a mathematical model for the relationship between research quality and group quantity. This model manifests both the Matthew effect and a phenomenon akin to the Ringelmann effect and reveals the existence of two critical masses for each academic discipline: a lower value, below which groups are vulnerable, and an upper value beyond which the dependency of quality on quantity reduces and plateaus appear when the critical masses are large. A possible normalization procedure is then to pitch these plateaus at similar levels. We examine the consequences of this procedure at RAE for a multitude of academic disciplines, corresponding to a range of critical masses.",
+    "pdf_url": "https://arxiv.org/pdf/1006.3863v2",
+    "published": "2010-06-19"
+  }
+}

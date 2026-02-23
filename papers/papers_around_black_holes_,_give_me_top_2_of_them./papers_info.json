@@ -1,0 +1,53 @@
+{
+  "1201.4463v1": {
+    "title": "Non thermal small black holes",
+    "authors": [
+      "Xavier Calmet",
+      "Dionysios Fragkakis",
+      "Nina Gausmann"
+    ],
+    "summary": "In this chapter we review the current theoretical state of the art of small black holes at the LHC. We discuss the production mechanism for small non thermal black holes at the LHC and discuss new signatures due to a possible discrete mass spectrum of these black holes.",
+    "pdf_url": "https://arxiv.org/pdf/1201.4463v1",
+    "published": "2012-01-21"
+  },
+  "2211.05767v5": {
+    "title": "Primordial Black Holes",
+    "authors": [
+      "Albert Escriv\u00e0",
+      "Florian Kuhnel",
+      "Yuichiro Tada"
+    ],
+    "summary": "Aspects of primordial black holes, i.e. black holes formed in the early Universe, are reviewed. Special emphasis is put on their formation, their role as dark matter candidates and their manifold signatures, particularly through gravitational waves.",
+    "pdf_url": "https://arxiv.org/pdf/2211.05767v5",
+    "published": "2022-11-10"
+  },
+  "1412.6832v1": {
+    "title": "Modified Newtonian potentials for particles and fluids in permanent rotation around black holes",
+    "authors": [
+      "V. Karas",
+      "M. A. Abramowicz"
+    ],
+    "summary": "Modified Newtonian potentials have been proposed for the description of relativistic effects acting on particles and fluids in permanent orbital motion around black holes. Here we further discuss spherically symmetric potentials like the one proposed by Artemova, Bjornson & Novikov (1996, Astrophysical Journal, 461, 565), and we illustrate their virtues by studying the acceleration along circular trajectories. We compare the results with exact expressions in the spacetime of a rotating (Kerr) black hole.",
+    "pdf_url": "https://arxiv.org/pdf/1412.6832v1",
+    "published": "2014-12-21"
+  },
+  "2402.03934v1": {
+    "title": "Confronting primordial black holes with LIGO-Virgo-KAGRA and the Einstein Telescope",
+    "authors": [
+      "Zu-Cheng Chen",
+      "Alex Hall"
+    ],
+    "summary": "The detection of gravitational waves (GWs) from binary black hole (BBH) coalescences by the LIGO-Virgo-KAGRA (LVK) Collaboration has raised fundamental questions about the genesis of these events. In this chapter, we explore the possibility that PBHs, proposed candidates for dark matter, may serve as the progenitors of the BBHs observed by LVK. Employing a Bayesian analysis, we constrain the PBH model using the LVK third GW Transient Catalog (GWTC-3), revealing that stellar-mass PBHs cannot dominate cold dark matter. Considering a mixed population of astrophysical black holes (ABHs) and PBHs, we determine that approximately $1/4$ of the detectable events in the GWTC-3 can be attributed to PBH binaries. We also forecast detectable event rate distributions for PBH and ABH binaries by the third-generation ground-based GW detectors, such as the Einstein Telescope, offering a potential avenue to distinguish PBHs from ABHs based on their distinct redshift evolutions.",
+    "pdf_url": "https://arxiv.org/pdf/2402.03934v1",
+    "published": "2024-02-06"
+  },
+  "1412.8636v1": {
+    "title": "Stationary electro-vacuum fields around black holes",
+    "authors": [
+      "Vladimir Karas"
+    ],
+    "summary": "This is the second lecture of `RAGtime' series on electrodynamical effects near black holes. We will summarize the basic equations of relativistic electrodynamics in terms of spin-coefficient (Newman-Penrose) formalism. The aim of the lecture is to present important relations that hold for exact electro-vacuum solutions and to exhibit, in a pedagogical manner, some illustrative solutions and useful approximation approaches. First, we concentrate on weak electromagnetic fields and we illustrate their structure by constructing the magnetic and electric lines of force. Gravitational field of the black hole assumes axial symmetry, whereas the electromagnetic field may or may not share the same symmetry. With these solutions we can investigate the frame-dragging effects acting on electromagnetic fields near a rotating black hole. These fields develop magnetic null points and current sheets. Their structure suggests that magnetic reconnection takes place near the rotating black hole horizon. Finally, the last section will be devoted to the transition from test-field solution to exact solutions of coupled Einstein-Maxwell equations. New effects emerge within the framework of exact solutions: the expulsion of the magnetic flux out of the black-hole horizon depends on the intensity of the imposed magnetic field.",
+    "pdf_url": "https://arxiv.org/pdf/1412.8636v1",
+    "published": "2014-12-30"
+  }
+}
