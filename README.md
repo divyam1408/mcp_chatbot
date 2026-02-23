@@ -1,117 +1,67 @@
 # MCP Chatbot & Research Tool
 
-A powerful AI assistant built with the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) that connects to external tools and resources. This project demonstrates a client-server architecture where a chatbot client interacts with specialized MCP servers (like a research paper server).
+A powerful AI assistant built with the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) that connects to external tools and resources. This project demonstrates a modular client-server architecture supporting multiple transports and dynamic tool discovery.
 
 ## 🚀 Features
 
--   **Multi-Server Support**: Connects to multiple MCP servers simultaneously via configuration.
+-   **Modular Client Architecture**: Decouples chat logic from connection management via `MCPClientManager`.
+-   **Multi-Server Support**: Connects to multiple MCP servers simultaneously.
+-   **Expanded Transports**: Supports `stdio` (local), `sse` (standard hosted), and `http` (modern streamable HTTP) protocols.
+-   **Dynamic Tool Shortcuts**: 
+    -   `@<tool_name> <args>`: Automatically maps positional arguments to any tool's schema.
+    -   `@git <command> <args>`: Natural shorthand for GitHub operations.
 -   **Dual Operation Modes**:
-    1.  **Optional Tool Mode**: The model intelligently decides when to use tools.
-    2.  **Forced Tool Mode**: Enforces a specific workflow (Search → Extract → Summarize).
--   **Comprehensive MCP Support**:
-    -   **Tools**: Executable functions (e.g., searching arXiv).
-    -   **Resources**: Read-only data sources (e.g., paper summaries, folders).
-    -   **Prompts**: Pre-defined templates for interactions (e.g., complex search strategies).
--   **Interactive Commands**:
-    -   `@topic`: Quickly access resource templates (e.g., `@physics` reads `papers://physics`).
-    -   `/prompts`: List available prompts.
-    -   `/prompt <name> <args>`: Execute a specific prompt.
+    1.  **Optional Tool Mode**: LLM intelligently decides when to use tools.
+    2.  **Forced Tool Mode**: Enforces a rigid research workflow (Search → Extract → Summarize).
+-   **Comprehensive MCP Discovery**: Automatically lists and manages Tools, Resources, and Prompts from all connected servers.
 
 ## 🏗️ Architecture
 
-The project follows a **Client-Host-Server** architecture as defined by the MCP specification:
+The project follows a **Client-Host-Server** architecture:
 
-1.  **Host (Chatbot)**: The `mcp_chatbot.py` script acts as the MCP Host. It initializes the client and manages connections.
-2.  **Server (Research)**: The `research_server.py` script runs as a standalone **subprocess**.
-3.  **Communication (Stdio)**: The Host triggers the Server using the command defined in `servers.json`. They communicate over **Standard Input/Output (stdio)** using JSON-RPC messages. This allows for secure, local, and fast interaction without needing network ports.
+1.  **Client/Host (Chatbot)**: `mcp_chatbot.py` manages the UI and LLM interaction.
+2.  **Manager**: `mcp_client_manager.py` capsules all session management, configuration loading, and transport handling.
+3.  **Servers**: Independent processes or remote services (e.g., `research_server.py`, GitHub MCP, Fetch MCP).
+4.  **Communication**: Uses JSON-RPC over `stdio`, `sse`, or `http` as defined in the configuration.
 
 ## 📂 Project Components
 
-### 1. `mcp_chatbot.py` (The Client)
-The main interface. It initializes an AI client (using `aisuite`), connects to servers defined in `servers.json`, and manages the chat loop. It handles:
--   Tool execution and routing.
--   Resource retrieval (static and templates).
--   Prompt execution.
-
-### 2. `research_server.py` (The Server)
-An MCP server implementation focusing on academic research.
--   **Tools**:
-    -   `search_papers(topic, max_results)`: Searches arXiv and saves metadata.
-    -   `extract_info(paper_id)`: Retrieves details for a specific paper.
--   **Resources**:
-    -   `papers://folders`: Lists available search topics.
-    -   `papers://{topic}`: Returns stored papers for a topic.
--   **Prompts**:
-    -   `generate_search_prompt`: A template to guide the model in researching a topic.
-
-### 3. `servers.json` (Configuration)
-Defines the MCP servers the client should connect to.
-```json
-{
-  "servers": [
-    {
-      "name": "research",
-      "command": "uv",
-      "args": ["run", "research_server.py"],
-      "env": null
-    }
-  ]
-}
-```
+-   **`mcp_chatbot.py`**: The main interface.
+-   **`mcp_client_manager.py`**: The core logic for server connections and tool routing.
+-   **`research_server.py`**: A local stdio-based research server.
+-   **`servers.json`**: Central configuration for all MCP servers.
+-   **`.github/workflows/lint.yml`**: CI pipeline for automated linting and formatting.
 
 ## 🛠️ Installation
 
-1.  **Prerequisites**:
-    -   Python 3.12+
-    -   `uv` package manager (recommended) or `pip`
-
+1.  **Prerequisites**: Python 3.12+ and `uv` package manager.
 2.  **Install Dependencies**:
     ```bash
     uv sync
-    # OR
-    pip install -r requirements.txt
     ```
-
 3.  **Environment Setup**:
-    Create a `.env` file in the root directory:
+    Create a `.env` file:
     ```env
     HUGGINGFACE_API_KEY=your_key_here
+    GITHUB_TOKEN=your_optional_github_token
     ```
-    (Note: The project is configured to use `huggingface:Qwen/Qwen3-8B` via `aisuite`, but you can change the model in `mcp_chatbot.py`.)
 
 ## 🏃 Usage
 
 ### Running the Chatbot
-Start the chatbot client. It will automatically start the configured servers (like `research_server.py`) as subprocesses.
-
 ```bash
 uv run mcp_chatbot.py
 ```
 
-### interacting with the Chatbot
+### Generic Commands
+-   **Tool Shortcut**: `@fetch https://google.com` (Maps to `fetch` tool).
+-   **Git Shortcut**: `@git list_commits owner=divyam1408 repo=mcp_chatbot`.
+-   **Resource Shortcut**: `@folders` (Reads `papers://folders`).
+-   **Prompt Command**: `/prompt generate_search_prompt topic=quantum`.
 
-1.  **Mode Selection**:
-    At startup, choose between:
-    -   **Mode 1**: Standard chat where the AI decides to use tools.
-    -   **Mode 2**: Forced workflow for deep research (Search -> Extract).
+## 🤖 CI/CD
 
-2.  **Commands**:
-    -   **Standard Query**: "Find papers about massive black holes."
-    -   **View Resources**: Type `@physics` to load papers on physics (if previously searched).
-    -   **List Prompts**: Type `/prompts`.
-    -   **Run Prompt**: Type `/prompt generate_search_prompt topic=quantum_computing`.
-
-## 🏗️ Extending
-
-To add a new MCP server:
-1.  Create your server script (e.g., `my_server.py`).
-2.  Add it to `servers.json`:
-    ```json
-    {
-      "name": "my_new_server",
-      "command": "uv",
-      "args": ["run", "my_server.py"],
-      "env": null
-    }
-    ```
-3.  Restart `mcp_chatbot.py`.
+This project uses **Ruff** for automated code quality:
+-   **Linting**: `uvx ruff check .`
+-   **Formatting**: `uvx ruff format .`
+-   Checks are automatically run on every push via GitHub Actions.
